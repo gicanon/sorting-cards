@@ -11,17 +11,17 @@ Step 1: Pick with the left hand a random card.
 - GET randomNumber from range 0 - 15
 
 Step 2: The right-hand holds several cards, sorted sequentially from right to left. In this example, the right-hand holds 5 cards arranged from right to left.
-    - cardList = [10, 6, 5, 3, 2]
+- cardList = [10, 6, 5, 3, 2]
 
 Step 3: Create a second empty list.
-    - secondList = empty list
+- secondList = empty list
 
 Step 4: Create a for loop to append all the cards greater than the random card. The last card of the second list is the adjacent card number of the random card, and the last greater number.
 
-FOR each card of cardList
-o     IF one of the cards is greater than randomNumber, THEN
-▪ APPEND the card in secondList
-▪ INCREMENT to next card
+- FOR each card of cardList
+    - IF one of the cards is greater than randomNumber, THEN
+        - APPEND the card in secondList
+        - INCREMENT to next card
 o ENDIF
 • PRINT secondList
 Step 5: Search the sequence number of the left card to insert it into the card list without interrupting the card sequence and create a while loop.
