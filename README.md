@@ -7,8 +7,8 @@ Suppose you are sorting a set of cards. The right hand holds several cards which
 The following Pseudocode explain the solution of this problem:
 
 Step 1: Pick with the left hand a random card.
-    - Import the module random
-    - GET randomNumber from range 0 - 15
+- Import the module random
+- GET randomNumber from range 0 - 15
 
 Step 2: The right-hand holds several cards, sorted sequentially from right to left. In this example, the right-hand holds 5 cards arranged from right to left.
     - cardList = [10, 6, 5, 3, 2]
