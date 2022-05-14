@@ -56,7 +56,7 @@ Step 6: Insert the random card into the card list without interrupting the card 
 - ELSE
     - INSERT randomNumber into sequendNumber + 1 entry of cardList
 
-STEP 7: The left card is inserted in the order from right to left. Print the card list.
+STEP 7: The random card is inserted in the order from right to left. Print the card list.
 
 - PRINT cardList
 
