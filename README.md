@@ -4,6 +4,10 @@ A python project to solve a card sorting problem.
 
 Suppose you are sorting a set of cards. The right hand holds several cards which are sequentially sorted by numbers arranged from right to left, say for example, five cards with 10, 6, 5, 3, 2 arranged from right to left. Your left hand is picking up the top card from a pile of card deck. Now you insert the card that you have picked from the pile of deck into the right position within the right-hand cards, in a sorted order from right to left.
 
+Exercise:
+
+**Write** the instructions in a step-by-step manner. Note down even a minor step that you have taken to insert the left-hand card into a correct position within the set of right-hand cards so that the right-hand card set remains sorted from right to left.
+
 ## Description
 
 The following pseudocode explain the solution of this problem:
