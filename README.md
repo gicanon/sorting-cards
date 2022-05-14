@@ -7,19 +7,19 @@ Suppose you are sorting a set of cards. The right hand holds several cards which
 The following Pseudocode explain the solution of this problem:
 
 Step 1: Pick with the left hand a random card.
-  1. Import the module random
-  2. GET randomNumber from range 0 - 15
+    Import the module random
+    GET randomNumber from range 0 - 15
 
 Step 2: The right-hand holds several cards, sorted sequentially from right to left. In this example, the right-hand holds 5 cards arranged from right to left.
-  1. cardList = [10, 6, 5, 3, 2]
+    cardList = [10, 6, 5, 3, 2]
 
 Step 3: Create a second empty list.
-. secondList = empty list
+    secondList = empty list
 
 Step 4: Create a for loop to append all the cards greater than the random card. The last card of the second list is the adjacent card number of the random card, and the last greater number.
 
-  1. FOR each card of cardList
-o IF one of the cards is greater than randomNumber, THEN
+  FOR each card of cardList
+o     IF one of the cards is greater than randomNumber, THEN
 ▪ APPEND the card in secondList
 ▪ INCREMENT to next card
 o ENDIF
